@@ -7,6 +7,8 @@ import math
 
 from api import __version__ as api_version
 
+import sys
+sys.path.append('C:\\Users\\LabAdmin\\Desktop\\deploying-machine-learning-models\\packages')
 
 def test_health_endpoint_returns_200(flask_test_client):
     # When

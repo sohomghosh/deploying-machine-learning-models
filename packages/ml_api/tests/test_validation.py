@@ -3,6 +3,8 @@ import json
 from regression_model.config import config
 from regression_model.processing.data_management import load_dataset
 
+import sys
+sys.path.append('C:\\Users\\LabAdmin\\Desktop\\deploying-machine-learning-models\\packages')
 
 def test_prediction_endpoint_validation_200(flask_test_client):
     # Given
